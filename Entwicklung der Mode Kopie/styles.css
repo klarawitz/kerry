@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Barlow+Condensed&family=PT+Mono&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+li, a, button, h3{
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #1a0900
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #35706d;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(27, 75, 78, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s
+}
+
+button:hover{
+  background-color: rgba(27, 75, 78, 0.7);
+}
+
+
+.active{
+  color: rgba(27, 75, 78, 1);
+}
+
+h3{
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  pa
+}
+
+
+
+.heading{
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.headingwhite{
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.text{
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.headingwhite{
+    font-family: "Allerta", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 20px;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.ueberschrift{
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+.erklaerung{
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.anker{
+  ont-family: "Allerta", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: white;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  text-decoration: none;
+  text-align: center;
+}
